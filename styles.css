@@ -1,0 +1,29 @@
+
+    .container {
+      display: inline-block;
+      width: 200px;
+      height: 300px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    
+    .item {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      cursor: move;
+    }
+    
+    .item.dragging {
+      opacity: 0.5;
+    }
+    
+    .success-message {
+      display: none;
+      color: green;
+      font-weight: bold;
+    }
+    
+    .reset-button {
+      margin-top: 10px;
+    }
